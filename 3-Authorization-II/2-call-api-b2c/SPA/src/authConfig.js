@@ -82,7 +82,7 @@ export const msalConfig = {
  */
 export const protectedResources = {
     apiTodoList: {
-        endpoint: 'http://thankful-plant-0897f3f0f.4.azurestaticapps.net/api/todolist',
+        endpoint: 'https://thankful-plant-0897f3f0f.4.azurestaticapps.net/api/todolist',
         scopes: {
             read: ['https://karanorgdatadna.onmicrosoft.com/TodoList/ToDoList.Read'],
             write: ['https://karanorgdatadna.onmicrosoft.com/TodoList/ToDoList.ReadWrite'],
